@@ -11,7 +11,7 @@ class Command(BaseCommand):
         try:
             print("i Am here")
             print(options)
-            msg = options['abc']
+            msg =  options['abc']
             print(msg)
         except Exception as e:
             CommandError(repr(e))
